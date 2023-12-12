@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 // connect to database
 exports.connect = () => {
     // connecting
-    mongoose.connect("mongodb://localhost:27017/habitTracker", {
+    mongoose.connect("mongodb+srv://sumit:1234@cluster0.arx2rnx.mongodb.net/HabitTraker", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
